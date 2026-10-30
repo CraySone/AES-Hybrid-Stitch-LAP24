@@ -1,0 +1,23 @@
+# Upstream codebases — cloned separately, see README
+ranf-hrtf/
+
+# Data and reconstructed outputs are regenerable
+data/*
+!data/.gitkeep
+results/*
+!results/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+*.pdf

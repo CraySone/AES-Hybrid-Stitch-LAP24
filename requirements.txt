@@ -1,0 +1,6 @@
+numpy
+sofar
+spatialaudiometrics
+
+# Tests only; the pipeline itself does not need it.
+pytest
